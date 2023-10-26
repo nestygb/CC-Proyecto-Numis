@@ -16,7 +16,7 @@ Nuestra aplicación propone una solución completa y centralizada para superar l
 
 ### Nombre del proyecto
 
-# :coins: Numis :coins:
+# :coin: Numis :coin:
 
 <a name="Additional"></a>
 ## Documentación Adicional
