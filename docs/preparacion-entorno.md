@@ -8,7 +8,7 @@ Repositorios que contiene el proyecto
 
 - [Repositorio de mi proyecto Numis](https://github.com/nestygb/CC-Proyecto-Numis)
 
-- [Fork creado al repositorio de la asignatura](https://github.com/nestygb/CC-Proyecto-Numis)
+- [Fork creado al repositorio de la asignatura](https://github.com/nestygb/CC-23-24)
 
 Una vez realizado lo anterior, procedí a clonar dichos repositorios desde GitHub a mi local:
 
