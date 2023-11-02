@@ -41,26 +41,24 @@ Posteriormente, se realizará una planificación del proyecto en diferentes _mil
 
 La estructura inicial del proyecto contendrá las siguientes clases o entindades:
 
-- **Profile**: xxx [fichero](./../../backend/src/modules/users/.xxx).
-- **User**: xxx [fichero](./../../backend/src/modules/users/.xxx).
-
+- **Profile**: Tipo de usuario que accede al sistema, pudiéndose tratar de un usuario administrador o un usuario lector. Se encuentra en el [fichero](./../../backend/src/useradmin/profile.py).
 
 
 <a name="framework"></a>
 
 ## Justificación de los lenguajes y frameworks
 
-# Frontend (Lado del Cliente):
+### Frontend (Lado del Cliente):
 
 _Angular:_ Se empleará Angular, un potente framework de desarrollo de aplicaciones web de código abierto respaldado por Google, para crear una interfaz de usuario (UI) dinámica y receptiva que proporcione una experiencia de usuario fluida y atractiva.
 
-# Backend (Lado del Servidor):
+### Backend (Lado del Servidor):
 
 _Python:_ Se utilizará Python como lenguaje principal del lado del servidor para desarrollar las funcionalidades fundamentales de la aplicación, lo que permitirá la gestión eficiente de las operaciones y lógicas del servidor.
 
 _Flask:_ Se empleará Flask, un ligero y versátil framework web de Python, para crear un servidor robusto y definir las rutas esenciales de la aplicación. Flask destaca por su simplicidad y su capacidad para desarrollar rápidamente aplicaciones web de backend.
 
-# Contenerización:
+### Contenerización:
 
 _Docker:_ Se empleará Docker para la contenerización de servicios, como el servidor Flask y la aplicación Angular. Al utilizar Docker, se facilitará el despliegue y la administración de los distintos componentes de la aplicación, permitiendo un entorno de desarrollo y producción más eficiente y escalable.
 
