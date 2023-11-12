@@ -21,3 +21,8 @@ Para una mejor descripción y comprensión del proyecto seguir el siguiente enla
 ## :coin: Creación de las Historias de Usuario y los Milestones :coin:
 
 En esta sección se crearon las Historias de Usuario y los Milestones, para más detalles, así como de la justificacion de los lenguajes y frameworsk a utilizar, seguir el siguiente enlace [Hito1](/docs/hitos/hito1/hito1.md)
+
+## :coin: Ejecución de los Test Unitarios :coin:
+
+En este hito se implementa el Gestor de Tareas, desde donde se ejecutaran los test y las Bibliotecas de Aserciones, la Creación y Ejecución de los Test Unitarios siguiendo las historias de usuarios definidas en el Milestone 2, as'i como la actualizaccion del CC.yaml
+Para más detalles seguir el siguiente enlace [Hito2](/docs/hitos/hito2/hito2.md)

@@ -1,6 +1,8 @@
 lenguaje:
-- python
+-python
 entidad:
 -src/useradmin/profile.py
 test:
 -test/test.py
+fichero tareas:
+-tasks.py

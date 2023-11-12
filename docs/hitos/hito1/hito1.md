@@ -41,7 +41,7 @@ Posteriormente, se realizará una planificación del proyecto en diferentes _mil
 
 La estructura inicial del proyecto contendrá las siguientes clases o entindades:
 
-- **Profile**: Tipo de usuario que accede al sistema, pudiéndose tratar de un usuario administrador o un usuario lector. Se encuentra en el [fichero](./../../backend/src/useradmin/profile.py).
+- **Profile**: Tipo de usuario que accede al sistema, pudiéndose tratar de un usuario administrador o un usuario lector. Se encuentra en el [fichero](https://github.com/nestygb/CC-Proyecto-Numis/blob/main/src/useradmin/profile.py).
 
 
 <a name="framework"></a>
