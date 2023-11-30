@@ -1,4 +1,13 @@
 import pytest
+import os
+import sys
+
+# Obtén la ruta del directorio actual (donde se encuentra test_profile.py)
+current_dir = os.path.dirname(__file__)
+
+# Agrega el directorio de nivel superior al sys.path
+sys.path.append(os.path.abspath(os.path.join(current_dir, '..')))
+
 from src.useradmin.profile import PiezaNumismatica, ColeccionNumismatica
 
 @pytest.fixture
