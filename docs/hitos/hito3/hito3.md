@@ -96,3 +96,7 @@ En nuestro caso, tal y como se ha comentado, se utilziará para alojar el conten
 
 ![contenedor docker](/docs/img/docker_tag_image_push.png)
 
+## Ejecucion de las Actions de GitHub y DockerHub
+
+En el archivo yml se configuró las GitHub Actions para activar los flujos de trabajo
+
