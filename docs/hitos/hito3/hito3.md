@@ -98,5 +98,7 @@ En nuestro caso, tal y como se ha comentado, se utilziará para alojar el conten
 
 ## Ejecucion de las Actions de GitHub y DockerHub
 
-En el archivo yml se configuró las GitHub Actions para activar los flujos de trabajo
+Se ejecutraron las GitHub Action
+
+![contenedor docker](/docs/img/Action.png)
 
