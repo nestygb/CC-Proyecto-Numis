@@ -15,7 +15,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    bat 'C:\Users\nesty\AppData\Local\Programs\Python\Python311\Scripts\pytest.exe'
+                    bat 'C:\\Users\\nesty\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\pytest.exe'
                 }
             }
         }
