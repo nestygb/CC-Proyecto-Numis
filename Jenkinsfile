@@ -12,15 +12,6 @@ pipeline {
             }
         }
 
-        stage('Prepare Environment') {
-            steps {
-                script {
-                    
-                    bat 'pip install pytest'
-                }
-            }
-        }
-
         stage('Test') {
             steps {
                 script {
