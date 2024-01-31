@@ -1,0 +1,25 @@
+swagger: '2.0'
+info:
+  version: '1.0'
+  title: 'API de Piezas Numismáticas'
+paths:
+  /piezas:
+    post:
+      parameters:
+        - in: body
+          name: pieza
+          required: true
+          schema:
+            type: object
+            properties:
+              codigo:
+                type: string
+              pais:
+                type: string
+              descripcion:
+                type: string
+              anio:
+                type: integer
+      responses:
+        '201':
+          description: 'Pieza numismática agregada con éxito'
