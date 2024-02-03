@@ -16,7 +16,7 @@ A continuación, se describirán los procesos y tareas realizadas para llevar a 
 
 Instalado Jenkins se selecciona por defecto el puerto 8080 que va a ejecutarse en el servidor local. Una vez registrados se instalan los pluggins necesarios Pipeline, Docker, entre otros y procedemos a crear nuestro proyecto:
 
-![Numis](/docs/img/Jenkins1.png).
+![Numis](/docs/img/Jenkins1.png)
 
 <a name="GJ"></a>
 ## Github en Jenkins
