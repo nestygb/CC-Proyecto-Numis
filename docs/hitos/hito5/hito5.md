@@ -24,7 +24,7 @@ A continuacion se muestran los metodos de las APIs utilizando el framework antes
 
 Primeramente importamos los modulos y luego se configura la aplicación Flask, seguidamente se configura el sistema de registro (logging) de la aplicación Flask, especificando un archivo de registro (app.log), el nivel de registro (INFO), y el formato del mensaje.
 
-Configurado lo anterior se crea una "Colección e Piezas Numismáticas" y se define una ruta en la aplicación (La documentación de Swagger para esta ruta se especifica utilizando docstrings bajo el formato de Swagger/OpenAPI.)
+Configurado lo anterior se crea una "Colección de Piezas Numismáticas" y se define una ruta en la aplicación (La documentación de Swagger para esta ruta se especifica utilizando docstrings bajo el formato de Swagger/OpenAPI.)
 
 Posterior a esto podemos ver los ejemplos de codigos de las API que permiten la obtención de todas las piezas numismáticas existentes y la adición de nuevas piezas mediante solicitudes GET y POST, respectivamente.
 
@@ -38,7 +38,7 @@ Posterior a esto podemos ver los ejemplos de codigos de las API que permiten la 
 
 La creación de ficheros de especificación OpenAPI, en formato YAML (.yml) dentro de la carpeta "Swagger" es esencial para documentar y describir de manera detallada cómo interactuar con las API. Estos ficheros actúan como documentación centralizada que define los detalles de la API, incluyendo qué datos se deben proporcionar en las solicitudes y qué se puede esperar como respuesta. Es decir que el propósito es servir como un contrato claro entre el consumidor y el proveedor de la API, describiendo los puntos de entrada (rutas), los métodos HTTP admitidos, los parámetros requeridos, el formato de los datos y las respuestas esperadas. A continuación se muestran dichos ficheros:
 
-![](/docs/img/swagger.png)
+![](/docs/img/Openapi.png)
 
 
 <a name="demo"></a>
@@ -49,7 +49,5 @@ Inicializada la aplicación Flask mediante la ejecución del comando "python app
 Luego nos dirigimos a la ruta web local de Swagger (http://127.0.0.1:5000/) para ver como se muestran las APIs creadas:
 
 ![](/docs/img/swagger.png)
-
-
 
 
