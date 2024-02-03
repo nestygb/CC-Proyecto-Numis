@@ -3,7 +3,7 @@ from flasgger import Swagger
 from flasgger.utils import swag_from
 import logging
 
-from useradmin.profile import ColeccionNumismatica, PiezaNumismatica
+from src.useradmin.profile import ColeccionNumismatica, PiezaNumismatica
 
 app = Flask(__name__)
 swagger = Swagger(app)
@@ -14,7 +14,6 @@ app.logger.addHandler(logging.StreamHandler())
 app.logger.setLevel(logging.INFO)
 
 coleccion = ColeccionNumismatica()
-# Agregar algunas piezas a la colección
 coleccion.agregar_pieza(PiezaNumismatica("001", "Estados Unidos", "Dólar", 1975))
 coleccion.agregar_pieza(PiezaNumismatica("002", "Francia", "Franco", 1980))
 coleccion.agregar_pieza(PiezaNumismatica("003", "Italia", "Lira", 1995))

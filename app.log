@@ -1,3 +1,40 @@
 2024-01-31 15:47:25,892 - WARNING -  * Debugger is active!
 2024-01-31 15:47:25,895 - INFO -  * Debugger PIN: 120-328-551
 2024-01-31 15:56:47,498 - INFO -  * Detected change in 'D:\\Master II\\CC\\CC-Proyecto-Numis\\app.py', reloading
+2024-01-31 16:16:24,514 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-31 16:16:24,514 - INFO - [33mPress CTRL+C to quit[0m
+2024-01-31 16:16:24,514 - INFO -  * Restarting with stat
+2024-01-31 16:16:24,799 - WARNING -  * Debugger is active!
+2024-01-31 16:16:24,812 - INFO -  * Debugger PIN: 120-328-551
+2024-01-31 16:16:40,444 - INFO - 127.0.0.1 - - [31/Jan/2024 16:16:40] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-31 16:16:40,608 - INFO - 127.0.0.1 - - [31/Jan/2024 16:16:40] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-31 16:16:40,614 - INFO - 127.0.0.1 - - [31/Jan/2024 16:16:40] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-31 16:16:40,619 - INFO - 127.0.0.1 - - [31/Jan/2024 16:16:40] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-31 16:16:40,619 - INFO - 127.0.0.1 - - [31/Jan/2024 16:16:40] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-01-31 16:16:40,719 - INFO - 127.0.0.1 - - [31/Jan/2024 16:16:40] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-31 16:16:40,725 - INFO - 127.0.0.1 - - [31/Jan/2024 16:16:40] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-31 16:17:18,962 - INFO - 127.0.0.1 - - [31/Jan/2024 16:17:18] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-31 16:17:19,136 - INFO - 127.0.0.1 - - [31/Jan/2024 16:17:19] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 -
+2024-01-31 16:17:19,137 - INFO - 127.0.0.1 - - [31/Jan/2024 16:17:19] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 -
+2024-01-31 16:17:19,143 - INFO - 127.0.0.1 - - [31/Jan/2024 16:17:19] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 -
+2024-01-31 16:19:06,222 - INFO - 127.0.0.1 - - [31/Jan/2024 16:19:06] "[36mGET /flasgger_static/swagger-ui.css.map HTTP/1.1[0m" 304 -
+2024-01-31 16:19:06,232 - INFO - 127.0.0.1 - - [31/Jan/2024 16:19:06] "[36mGET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1[0m" 304 -
+2024-01-31 16:19:06,232 - INFO - 127.0.0.1 - - [31/Jan/2024 16:19:06] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1[0m" 304 -
+2024-01-31 16:20:00,958 - INFO - 127.0.0.1 - - [31/Jan/2024 16:20:00] "[36mGET /flasgger_static/swagger-ui.css.map HTTP/1.1[0m" 304 -
+2024-01-31 16:20:00,960 - INFO - 127.0.0.1 - - [31/Jan/2024 16:20:00] "[36mGET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1[0m" 304 -
+2024-01-31 16:20:00,961 - INFO - 127.0.0.1 - - [31/Jan/2024 16:20:00] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1[0m" 304 -
+2024-01-31 16:34:11,627 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-31 16:34:11,627 - INFO - [33mPress CTRL+C to quit[0m
+2024-01-31 16:34:11,642 - INFO -  * Restarting with stat
+2024-01-31 16:34:11,926 - WARNING -  * Debugger is active!
+2024-01-31 16:34:11,941 - INFO -  * Debugger PIN: 120-328-551
+2024-01-31 16:34:17,832 - INFO - 127.0.0.1 - - [31/Jan/2024 16:34:17] "GET /apidocs/ HTTP/1.1" 200 -
+2024-01-31 16:34:17,942 - INFO - 127.0.0.1 - - [31/Jan/2024 16:34:17] "GET /flasgger_static/swagger-ui.css HTTP/1.1" 200 -
+2024-01-31 16:34:17,997 - INFO - 127.0.0.1 - - [31/Jan/2024 16:34:17] "GET /flasgger_static/lib/jquery.min.js HTTP/1.1" 200 -
+2024-01-31 16:34:18,077 - INFO - 127.0.0.1 - - [31/Jan/2024 16:34:18] "GET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2024-01-31 16:34:18,245 - INFO - 127.0.0.1 - - [31/Jan/2024 16:34:18] "GET /flasgger_static/swagger-ui-bundle.js HTTP/1.1" 200 -
+2024-01-31 16:34:18,348 - INFO - 127.0.0.1 - - [31/Jan/2024 16:34:18] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-01-31 16:34:18,354 - INFO - 127.0.0.1 - - [31/Jan/2024 16:34:18] "GET /flasgger_static/favicon-32x32.png HTTP/1.1" 200 -
+2024-01-31 16:34:30,064 - INFO - 127.0.0.1 - - [31/Jan/2024 16:34:30] "GET / HTTP/1.1" 200 -
