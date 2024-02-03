@@ -53,3 +53,18 @@
 2024-02-03 10:44:12,977 - INFO - 127.0.0.1 - - [03/Feb/2024 10:44:12] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
 2024-02-03 10:44:13,215 - INFO - 127.0.0.1 - - [03/Feb/2024 10:44:13] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
 2024-02-03 10:44:13,384 - INFO - 127.0.0.1 - - [03/Feb/2024 10:44:13] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-02-03 14:30:02,240 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:02] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-02-03 14:30:02,299 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:02] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-02-03 14:30:02,340 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:02] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-02-03 14:30:02,523 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:02] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-02-03 14:30:02,725 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:02] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-02-03 14:30:26,742 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:26] "GET /apidocs/ HTTP/1.1" 200 -
+2024-02-03 14:30:26,754 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:26] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-02-03 14:30:26,759 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:26] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-02-03 14:30:26,759 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:26] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-02-03 14:30:26,759 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:26] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-02-03 14:30:26,830 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:26] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-02-03 14:30:26,841 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:26] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-02-03 14:30:38,607 - INFO - 127.0.0.1 - - [03/Feb/2024 14:30:38] "GET / HTTP/1.1" 200 -
+2024-02-03 14:41:17,935 - INFO -  * Detected change in 'D:\\Master II\\CC\\CC-Proyecto-Numis\\app.py', reloading
+2024-02-03 14:41:18,171 - INFO -  * Restarting with stat

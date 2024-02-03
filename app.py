@@ -28,7 +28,7 @@ def hello_world():
       200:
         description: Mensaje de bienvenida
     """
-    return jsonify(message='Hola de bienvenida')
+    return jsonify(message='Piezas para intercambio o venta')
 
 @app.route('/piezas', methods=['GET'])
 @swag_from('swagger/get_piezas.yml')
