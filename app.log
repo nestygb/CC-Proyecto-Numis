@@ -78,3 +78,24 @@
 2024-02-03 14:43:34,872 - INFO - 127.0.0.1 - - [03/Feb/2024 14:43:34] "GET /apispec_1.json HTTP/1.1" 200 -
 2024-02-03 14:43:34,877 - INFO - 127.0.0.1 - - [03/Feb/2024 14:43:34] "[36mGET /flasgger_static/favicon-32x32.png HTTP/1.1[0m" 304 -
 2024-02-03 14:43:43,231 - INFO - 127.0.0.1 - - [03/Feb/2024 14:43:43] "GET / HTTP/1.1" 200 -
+2024-02-03 22:30:21,603 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:21] "GET /apidocs/ HTTP/1.1" 200 -
+2024-02-03 22:30:21,679 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:21] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-02-03 22:30:21,679 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:21] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-02-03 22:30:21,679 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:21] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-02-03 22:30:21,722 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:21] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-02-03 22:30:21,945 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:21] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-02-03 22:30:55,337 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:55] "[36mGET /flasgger_static/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-02-03 22:30:55,337 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:55] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-02-03 22:30:55,337 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:55] "[36mGET /flasgger_static/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-02-03 22:30:55,337 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:55] "[36mGET /flasgger_static/lib/jquery.min.js HTTP/1.1[0m" 304 -
+2024-02-03 22:30:55,503 - INFO - 127.0.0.1 - - [03/Feb/2024 22:30:55] "GET /apispec_1.json HTTP/1.1" 200 -
+2024-02-03 22:31:04,374 - INFO - 127.0.0.1 - - [03/Feb/2024 22:31:04] "GET / HTTP/1.1" 200 -
+2024-02-03 22:33:17,899 - INFO - 127.0.0.1 - - [03/Feb/2024 22:33:17] "[36mGET /flasgger_static/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-02-03 22:33:17,899 - INFO - 127.0.0.1 - - [03/Feb/2024 22:33:17] "GET /apidocs/ HTTP/1.1" 200 -
+2024-02-03 22:33:18,078 - INFO - 127.0.0.1 - - [03/Feb/2024 22:33:18] "GET /flasgger_static/swagger-ui.css.map HTTP/1.1" 200 -
+2024-02-03 22:33:18,078 - INFO - 127.0.0.1 - - [03/Feb/2024 22:33:18] "GET /flasgger_static/swagger-ui-standalone-preset.js.map HTTP/1.1" 200 -
+2024-02-03 22:33:18,078 - INFO - 127.0.0.1 - - [03/Feb/2024 22:33:18] "GET /flasgger_static/swagger-ui-bundle.js.map HTTP/1.1" 200 -
+2024-02-03 22:41:45,526 - INFO -  * Detected change in 'D:\\Master II\\CC\\CC-Proyecto-Numis\\test\\test_profile.py', reloading
+2024-02-03 22:41:45,604 - INFO -  * Restarting with stat
+2024-02-03 22:41:46,080 - WARNING -  * Debugger is active!
+2024-02-03 22:41:46,080 - INFO -  * Debugger PIN: 120-328-551
