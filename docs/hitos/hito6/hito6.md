@@ -11,7 +11,7 @@ A continuación se detallan todos los procesos y tareas para llevar a cabo el hi
 
 
 <a name="EC"></a>
-## Framework Utilizado
+## Estructura del Clúster
 
 
 
