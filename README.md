@@ -40,3 +40,5 @@ En este hito se define la elección y justificación de los distintos sistemas d
 En el siguiente enlace se podrá acceder al [Hito5](/docs/hitos/hito5/hito5.md) donde se define la elección y justificación de los distintos frameworks utilizados para microservicios, se ha llevado a cabo la documentación y diseño completo de la API, se ha levantado un conjunto de contenedores para la realización y visualización de logs.
 
 ## :coin: Composición de Servicios (Hito 6) :coin:
+
+Este hito se centra en diseñar un servicio utilizando Docker Compose para gestionar varios contenedores, incluyendo uno dedicado al almacenamiento de datos. En el siguiente enlace del [Hito6](/docs/hitos/hito6/hito6.md) se pueden ver los detalles sobre la documentación y justificación de la estructura del clúster, de la configuración de cada uno de los contenedores que lo componen y del fichero de composición, asi como el testeo del clúster.
