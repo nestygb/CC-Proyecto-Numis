@@ -6,3 +6,5 @@ test:
 -test/test.py
 fichero tareas:
 -tasks.py
+
+test-docker-compose: test_cluster.py
