@@ -13,5 +13,37 @@ services:
      - .:/app                     # Monta el código fuente en el contenedor
     ports:
      - "5000:5000"                # Mapea el puerto 5000 del contenedor al puerto 5000 del host
-    command: ["pytest", "app.py"] # Ejecuta el comando "python app.py" al iniciar el contenedor    
+    command: ["pytest", "app.py"] # Ejecuta el comando "python app.py" al iniciar el contenedor
+
+# Servicio para Elasticsearch
+  elasticsearch:  
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.15.2  # Utiliza la imagen oficial de Elasticsearch
+    ports:
+      - "9200:9200"                                              # Mapea el puerto 9200 del contenedor al puerto 9200 del host
+    environment:
+      - discovery.type=single-node                               # Configura Elasticsearch como un nodo único
+
+# Servicio para visualización de logs
+  kibana:  
+    image: docker.elastic.co/kibana/kibana:7.15.2  # Utiliza la imagen oficial de Kibana
+    ports:
+      - "5601:5601"                                # Mapea el puerto 5601 del contenedor al puerto 5601 del host
+    depends_on:
+      - elasticsearch                              # Dependencia del servicio Elasticsearch para funcionar correctamente
+
+ # Servicio para la administración de los logs)
+  fluentd: 
+    image: fluent/fluentd:latest     # Utiliza la imagen oficial de Fluentd
+    volumes:
+      - ./fluentd/conf:/fluentd/etc  # Monta la configuración personalizada de Fluentd
+    depends_on:
+      - elasticsearch                # Dependencia del servicio Elasticsearch para enviar los logs correctamente
+    environment:
+      - FLUENTD_CONF=fluent.conf     # Configura el archivo de configuración de Fluentd
+
+# Definición de red interna entre los contenedores para logs
+networks:  
+  default:
+    external:
+      name: fluentd_network
 
