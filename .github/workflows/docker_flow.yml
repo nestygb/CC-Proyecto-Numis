@@ -27,6 +27,3 @@ jobs:
 
       - name: Tag y Push a GitHub
         run: docker push nestygb/cc-proyecto-numis-tests:latest
-
-      - name: Docker Compose Up
-        run: docker-compose up
